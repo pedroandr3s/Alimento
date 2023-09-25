@@ -29,14 +29,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
         botonPerro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Crear Intent para iniciar la actividad DatosPerro
+                // Crear un Intent para iniciar la actividad DatosPerro
                 Intent intent = new Intent(MainActivity.this, DatosPerro.class);
                 startActivity(intent);
             }
         });
+
 
         botonGato.setOnClickListener(new View.OnClickListener() {
             @Override

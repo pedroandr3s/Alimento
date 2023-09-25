@@ -13,7 +13,7 @@
         android:theme="@style/Theme.Alimento"
         tools:targetApi="31">
         <activity
-            android:name=".Horarios"
+            android:name=".HorariosActivity"
             android:exported="false" />
         <activity
             android:name=".DatosPerro"

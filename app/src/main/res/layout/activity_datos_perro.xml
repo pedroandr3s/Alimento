@@ -5,7 +5,7 @@
     android:id="@+id/v3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#AC95AF"
+    android:background="#4F015C"
     tools:context=".DatosPerro">
 
     <ImageView
@@ -31,16 +31,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
-        android:id="@+id/botones"
-        android:layout_width="410dp"
-        android:layout_height="115dp"
+        android:layout_width="392dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.482">
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:id="@+id/v2"
@@ -54,7 +51,8 @@
             android:layout_width="wrap_content"
             android:layout_height="87dp"
             android:layout_weight="1"
-            android:text="3 Al Dia" />
+            android:text="3 Al Dia"
+            tools:ignore="DuplicateIds" />
 
         <Button
             android:id="@+id/v4"
@@ -69,7 +67,6 @@
             android:layout_height="87dp"
             android:layout_weight="1"
             android:text="5 Al dia" />
-
     </LinearLayout>
 
 
